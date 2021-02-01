@@ -1,0 +1,36 @@
+/*   use * to select all elements   */
+
+*, *::before,*::after {
+    box-sizing: border-box;
+    font-family: Gotham Rounded, sans-serif;
+    font-weight: normal;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(to right, grey, purple);
+}
+
+.calculator-grid {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: minmax(120px, auto)repeat(5, 100px);
+}
+
+/* select just the buttons in calculator grid */
+
+.calculator-grid > button {
+    cursor: pointer;
+    font-size: 2rem;
+    border: 1px solid white ;
+    outline: none;
+    background-color: whitesmoke;
+}
+
+.calculator-grid > button:hover{
+    background-color: hsla(50, 33%, 25%, .75);
+}

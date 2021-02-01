@@ -1,2 +1,2 @@
 # calculator
-simple javascript calculator
+simple javascript calculator codealong
