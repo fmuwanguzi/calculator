@@ -47,7 +47,7 @@ body {
     align-items: flex-end;
     justify-content: space-between;
     flex-direction: column;
-    padding 10px;
+    padding 10px ;
     word-wrap: break-word;
     word-break: break-all
 }
